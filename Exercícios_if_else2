@@ -1,0 +1,120 @@
+package javaexercicios1;
+
+
+import java.util.Scanner;
+
+
+public class JavaExercicios1 {
+   
+   
+    public static void main(String[] args) {
+        Scanner ler = new Scanner(System.in);
+   
+    /* Exercício 1) Verificar se a idade é menor que 18 (menor de idade), entre 18 e 64 anos (maior de idade) ou maior ou igual a 65 anos (idoso).
+    Informar a idade e mostrar na tela em que grupo a idade se enquadra.
+   
+        System.out.println("Qual a sua idade?");
+        int idade = ler.nextInt();
+               
+            if (idade < 18){
+                System.out.println("Menor de idade");
+            }else if (idade >= 18 & idade <= 64){
+                System.out.println("Maior de idade");
+            }else{
+                System.out.println("Idoso");
+            }
+    */
+   
+    /* Exercício 2) Faça um programa que indica quem tem a permissão para entrar num estabelecimento que só
+    permite entrada de maiores de idade utilizando se/senão.
+   
+        System.out.println("Qual a sua idade?");
+        int idade = ler.nextInt();
+   
+             if (idade < 18){
+                System.out.println("Menor de idade, proibido entrar");
+            }else{
+                System.out.println("Maior de idade, pode entrar");
+            }    
+    */
+           
+    /* Exercício 4(exercício 5, lista Professor Vitor portugol))
+    Faça um programa que receba 5 valores e depois informe qual o menor e o maior valor digitado, utilize "if & else".
+       
+        System.out.println("Digite 5 valores de 1 a 10, para sabermos qual será o menor e qual será o maior entre ele");
+       
+        System.out.println("Digite o valor de a1");
+        int a1 = ler.nextInt();
+       
+        System.out.println("Digite o valor de a2");
+        int a2 = ler.nextInt();
+       
+        System.out.println("Digite o valor de a3");
+        int a3 = ler.nextInt();
+       
+        System.out.println("Digite o valor de a4");
+        int a4 = ler.nextInt();
+       
+        System.out.println("Digite o valor de a5");
+        int a5 = ler.nextInt();
+             
+       
+        if (a1 < a2 & a1 < a3 & a1 < a4 & a1 < a5){
+            System.out.println("a1 é o menor valor");
+        }else{
+            System.out.println("outro valor é menor");
+        }  
+      */
+   
+     //Exercício 5)(exercício 6, lista Professor Vitor portugol))
+   
+        System.out.println("O fundionário trabalhou quantas horas esse mês?");
+        double horasTrabalhadas = ler.nextDouble();
+       
+        System.out.println("Qual o valor da hora de trabalho?");
+        double valorHora = ler.nextDouble();
+       
+        System.out.println("Então ele deve receber R$" +(valorHora * horasTrabalhadas)+ " de salário base.");
+       
+       
+        System.out.println("Teve horas extras?");
+       
+        boolean horasExtra = ler.hasNextBoolean();
+       
+        if(horasExtra = false){
+        System.out.println("não tem valores a receber de hora extra");
+        }else{
+        System.out.println("tem valores a receber ");
+        }
+        System.out.println("Quantas horas extras foram feitas?");                
+   
+     
+       
+   
+   
+    /*  Crie um programa que peça para informar 3 notas e fazer a média delas, no final mostrar se está Reprovado, em Exame ou Aprovado.
+    (3 > Reprovado) (3 < Exame < 6) (7 < Aprovado)
+       
+   
+        System.out.println("Informe as 3 notas das provas do aluno, para fazermos a média e ver se o aluno foi aprovado");
+        double nota1 = ler.nextDouble();
+        double nota2 = ler.nextDouble();
+        double nota3 = ler.nextDouble();
+        double media = (nota1 + nota2 + nota3) /3;
+       
+        System.out.println("média das notas é: " + media);
+       
+        if(media <= 3){
+            System.out.println("Reprovado");
+        }else if(media > 3 & media < 6.99){
+            System.out.println("Exame");
+        }else{
+            System.out.println("Aprovado");
+        }
+       
+       */
+       
+     
+    }
+
+}
