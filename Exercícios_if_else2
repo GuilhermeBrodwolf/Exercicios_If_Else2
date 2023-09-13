@@ -43,27 +43,24 @@ public class JavaExercicios1 {
        
         System.out.println("Digite 5 valores de 1 a 10, para sabermos qual será o menor e qual será o maior entre ele");
        
-        System.out.println("Digite o valor de a1");
-        int a1 = ler.nextInt();
-       
-        System.out.println("Digite o valor de a2");
-        int a2 = ler.nextInt();
-       
-        System.out.println("Digite o valor de a3");
-        int a3 = ler.nextInt();
-       
-        System.out.println("Digite o valor de a4");
-        int a4 = ler.nextInt();
-       
-        System.out.println("Digite o valor de a5");
-        int a5 = ler.nextInt();
-             
-       
-        if (a1 < a2 & a1 < a3 & a1 < a4 & a1 < a5){
-            System.out.println("a1 é o menor valor");
-        }else{
-            System.out.println("outro valor é menor");
+        int maior = Integer.MIN_VALEU;
+        int menor = Integer.MAX_VALEU;
+
+         System.out.println("maior numero: " + menor + "\n menor número: " + maior);
+
+         for(int i = 0; i < 5; i++){
+            System.out.println("informe um número");
+            int numero = sc.nextInt();
+
+            if(numero > maior){
+               maior = numero;
+            }
+            if(numero < menor){
+               menor = numero;
+            }
         }  
+ System.out.println("maior numero: " + menor + "\n menor número: " + maior);
+
       */
    
      //Exercício 5)(exercício 6, lista Professor Vitor portugol))
